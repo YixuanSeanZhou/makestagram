@@ -10,10 +10,12 @@
 		25E6F7B1721B62C401D18DC5 /* Pods_MakestgramV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8CA9F4C4C59A167141C72 /* Pods_MakestgramV.framework */; };
 		E4173D6B1F2193EC005D39C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4173D6A1F2193EC005D39C6 /* AppDelegate.swift */; };
 		E4173D721F2193ED005D39C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4173D711F2193ED005D39C6 /* Assets.xcassets */; };
+		E41E2FD71F24BFB800EA4BC2 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E2FD61F24BFB800EA4BC2 /* CreateUsernameViewController.swift */; };
 		E47139351F21991800E90145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47139341F21991800E90145 /* ViewController.swift */; };
 		E47139371F21993800E90145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47139361F21993800E90145 /* Main.storyboard */; };
 		E47139391F21994100E90145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47139381F21994100E90145 /* LaunchScreen.storyboard */; };
 		E471393B1F21994A00E90145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E471393A1F21994A00E90145 /* GoogleService-Info.plist */; };
+		E4ADCDC71F21E28F00963F4B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ADCDC61F21E28F00963F4B /* User.swift */; };
 		E4C357FA1F219D0F0020299D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C357F91F219D0F0020299D /* Login.storyboard */; };
 		E4C357FC1F219DD20020299D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C357FB1F219DD20020299D /* LoginViewController.swift */; };
 		E4C357FE1F21A02F0020299D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C357FD1F21A02F0020299D /* AdSupport.framework */; };
@@ -25,11 +27,13 @@
 		E4173D671F2193EC005D39C6 /* MakestgramV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakestgramV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4173D6A1F2193EC005D39C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4173D711F2193ED005D39C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41E2FD61F24BFB800EA4BC2 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		E47139341F21991800E90145 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
 		E47139361F21993800E90145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		E47139381F21994100E90145 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E471393A1F21994A00E90145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E471393C1F21995100E90145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
+		E4ADCDC61F21E28F00963F4B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E4C357F91F219D0F0020299D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E4C357FB1F219DD20020299D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E4C357FD1F21A02F0020299D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -90,6 +94,7 @@
 			children = (
 				E4173D6A1F2193EC005D39C6 /* AppDelegate.swift */,
 				E47139401F219AF600E90145 /* View Controller */,
+				E4ADCDC81F21E29B00963F4B /* Models */,
 				E471393F1F219AE000E90145 /* Storyboards */,
 				E4173D711F2193ED005D39C6 /* Assets.xcassets */,
 				E471393E1F219AD000E90145 /* Supportings */,
@@ -121,8 +126,17 @@
 			children = (
 				E47139341F21991800E90145 /* ViewController.swift */,
 				E4C357FB1F219DD20020299D /* LoginViewController.swift */,
+				E41E2FD61F24BFB800EA4BC2 /* CreateUsernameViewController.swift */,
 			);
 			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		E4ADCDC81F21E29B00963F4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADCDC61F21E28F00963F4B /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ADCDC71F21E28F00963F4B /* User.swift in Sources */,
 				E4C357FC1F219DD20020299D /* LoginViewController.swift in Sources */,
 				E47139351F21991800E90145 /* ViewController.swift in Sources */,
+				E41E2FD71F24BFB800EA4BC2 /* CreateUsernameViewController.swift in Sources */,
 				E4173D6B1F2193EC005D39C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
