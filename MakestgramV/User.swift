@@ -39,4 +39,29 @@ class User {
         self.username = username
     }
     
+    // MARK: - Singleton
+    
+    // Create a private static variable to hold our current user. This method is private so it can't be access outside of this class.
+    private static var _current: User?
+    
+    // Create a computed variable that only has a getter that can access the private _current variable.
+    static var current: User {
+        // Check that _current that is of type User? isn't nil. If _current is nil, and current is being read, the guard statement will crash with fatalError().
+        guard let currentUser = _current
+        else {
+            fatalError("Error: current user doesn't exist")
+        }
+        
+        // If _current isn't nil, it will be returned to the user.
+        return currentUser
+    }
+    
+    // MARK: - Class Methods
+    
+    // Create a custom setter method to set the current user.
+    static func setCurrent(_ user: User) {
+        _current = user
+    }
+
+    
 }
