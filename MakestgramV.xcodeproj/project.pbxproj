@@ -14,7 +14,8 @@
 		E41E2FD91F24F1C100EA4BC2 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41E2FD81F24F1C100EA4BC2 /* UserService.swift */; };
 		E42083F71F259BA5007E470E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42083F61F259BA5007E470E /* Constants.swift */; };
 		E42083F91F259D82007E470E /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42083F81F259D82007E470E /* Storyboard+Utility.swift */; };
-		E47139351F21991800E90145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47139341F21991800E90145 /* ViewController.swift */; };
+		E42083FC1F25CA09007E470E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42083FB1F25CA09007E470E /* HomeViewController.swift */; };
+		E42083FE1F25CA45007E470E /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42083FD1F25CA45007E470E /* FindFriendsViewController.swift */; };
 		E47139371F21993800E90145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47139361F21993800E90145 /* Main.storyboard */; };
 		E47139391F21994100E90145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47139381F21994100E90145 /* LaunchScreen.storyboard */; };
 		E471393B1F21994A00E90145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E471393A1F21994A00E90145 /* GoogleService-Info.plist */; };
@@ -34,7 +35,8 @@
 		E41E2FD81F24F1C100EA4BC2 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		E42083F61F259BA5007E470E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E42083F81F259D82007E470E /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
-		E47139341F21991800E90145 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
+		E42083FB1F25CA09007E470E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E42083FD1F25CA45007E470E /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		E47139361F21993800E90145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		E47139381F21994100E90145 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E471393A1F21994A00E90145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -149,9 +151,10 @@
 		E47139401F219AF600E90145 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E47139341F21991800E90145 /* ViewController.swift */,
 				E4C357FB1F219DD20020299D /* LoginViewController.swift */,
 				E41E2FD61F24BFB800EA4BC2 /* CreateUsernameViewController.swift */,
+				E42083FB1F25CA09007E470E /* HomeViewController.swift */,
+				E42083FD1F25CA45007E470E /* FindFriendsViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -293,8 +296,9 @@
 				E4ADCDC71F21E28F00963F4B /* User.swift in Sources */,
 				E4C357FC1F219DD20020299D /* LoginViewController.swift in Sources */,
 				E41E2FD91F24F1C100EA4BC2 /* UserService.swift in Sources */,
+				E42083FC1F25CA09007E470E /* HomeViewController.swift in Sources */,
 				E42083F91F259D82007E470E /* Storyboard+Utility.swift in Sources */,
-				E47139351F21991800E90145 /* ViewController.swift in Sources */,
+				E42083FE1F25CA45007E470E /* FindFriendsViewController.swift in Sources */,
 				E42083F71F259BA5007E470E /* Constants.swift in Sources */,
 				E41E2FD71F24BFB800EA4BC2 /* CreateUsernameViewController.swift in Sources */,
 				E4173D6B1F2193EC005D39C6 /* AppDelegate.swift in Sources */,

@@ -32,13 +32,16 @@ class CreateUsernameViewController: UIViewController {
         }
         // Call UserService
         UserService.create(firUser, username: username) { (user) in
-            guard let user = user
-                else {
-                    return
+            guard let user = user else {
+                // handle error
+                return
             }
             
-            print("Created new user: \(user.username)")
-
+            User.setCurrent(user, writeToUserDefaults: true)
+            
+            let initialViewController = UIStoryboard.initialViewController(for: .main)
+            self.view.window?.rootViewController = initialViewController
+            self.view.window?.makeKeyAndVisible()
         }
         //Create a new instance of our main storyboard
         UserService.create(firUser, username: username) { (user) in
