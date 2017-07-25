@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1" : 9223372036854775807,
+    "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4DD96DD-7769-49F2-BA75-204C85486DA7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1" : "makestagram\/Kingfisher\/",
+    "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E" : "makestagram\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MakestgramV",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MakestgramV.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/onevcat\/Kingfisher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17FB51EC7B87DC25DD21E28FDFD877B479CFFAC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YixuanZhouThomas\/makestagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B51A9F403F3E3C225FD4A9AA219BC6D4AFDE565E"
+    }
+  ]
+}
