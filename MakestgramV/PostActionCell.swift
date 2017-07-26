@@ -10,19 +10,27 @@ import Foundation
 import UIKit
 import Kingfisher
 
+protocol PostActionCellDelegate: class {
+    func didTapLikeButton(_ likeButton: UIButton, on cell: PostActionCell)
+}
+//Difference between declear a func?????
+
 class PostActionCell : UITableViewCell{
     
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var likeCountLabel: UILabel!
-    @IBOutlet weak var timeAgoLabel: UIView!
+    @IBOutlet weak var timeAgoLabel: UILabel!
     
+    
+    weak var delegate: PostActionCellDelegate?
     static let height: CGFloat = 46
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     @IBAction func likeButtonTapped(_ sender: UIButton) {
-        print("Like Button Tapped")
+       delegate?.didTapLikeButton(sender, on: self)
     }
+    
     
     
 }

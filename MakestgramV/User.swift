@@ -18,8 +18,9 @@ import FirebaseDatabase
 
 class User : NSObject {
     
-    // MARK: - Properties
     
+    // MARK: - Properties
+    var isFollowed = false
     let uid: String
     let username: String
     // MARK: - Init
